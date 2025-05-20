@@ -1,0 +1,9 @@
+## IDF Component Manager Manifest File
+dependencies:
+  idf: ">=4.4"
+  
+  lvgl/lvgl: "^9.2.2"
+  espressif/esp_lvgl_port: "^2.3.0"
+  esp_lcd_gc9d01:
+    version: "*"
+    override_path: "../../../esp_lcd_gc9d01"
